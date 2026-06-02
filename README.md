@@ -26,8 +26,7 @@ project-root/
 │   ├── src/
 │   ├── public/
 │   ├── .env.development
-│   ├── .env.docker
-│   └── .env.production
+│   └── .env.docker
 │
 └── dist/ (gerado automaticamente)
 ```
@@ -47,7 +46,7 @@ Responsável por:
 - configuração do Vite
 - variáveis de ambiente
 
-## .env.local
+## .env.development
 
 Usado no desenvolvimento local.
 
