@@ -7,6 +7,6 @@ export interface Empresa {
 }
 
 export const listarEmpresas = async (): Promise<Empresa[]> => {
-  const response = await api.get("/Teste");
+  const response = await api.get("/TesteEmpresa");
   return response.data;
 };
