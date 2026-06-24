@@ -50,13 +50,12 @@
   }
 }
 
+
 #root {
-  width: 1126px;
-  max-width: 100%;
-  margin: 0 auto;
-  text-align: center;
-  border-inline: 1px solid var(--border);
-  min-height: 100svh;
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  text-align: left;
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
@@ -108,4 +107,103 @@ code {
   line-height: 135%;
   padding: 4px 8px;
   background: var(--code-bg);
+}
+
+
+
+/* codigo de estrutura da parte dos funcionarios*/
+
+/* --- LAYOUT BASE --- */
+body, html {
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* --- BARRA LATERAL (SIDEBAR) --- */
+.sidebar {
+  width: 250px;
+  background-color: #4b4b4b; /* Fundo cinza escuro do seu print */
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar-header {
+  background-color: #0056b3; /* Azul do cabeçalho */
+  padding: 25px 20px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.sidebar-nav {
+  flex: 1;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-item {
+  padding: 15px 20px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #ccc;
+  text-decoration: none; /* Tira o sublinhado roxo */
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+.nav-item:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+  color: #fff;
+}
+
+.nav-item.active {
+  color: #fff;
+  border-left: 4px solid #fff;
+  background-color: rgba(255, 255, 255, 0.1);
+  font-weight: 500;
+}
+
+.sidebar-footer {
+  padding: 20px;
+  font-size: 11px;
+  color: #888;
+}
+
+/* --- BARRA SUPERIOR (TOPBAR) --- */
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 15px 30px;
+  border-bottom: 1px solid #ddd;
+}
+
+.topbar-title {
+  font-size: 24px;
+  color: #333;
+}
+
+.topbar-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: #666;
+  font-size: 14px;
+}
+
+.avatar {
+  width: 35px;
+  height: 35px;
+  background-color: #0056b3;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
 }
