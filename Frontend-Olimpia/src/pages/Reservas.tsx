@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { type Reserva, listarReservas } from "../services/reservaMesService";
+import { type Reserva, listarReservas } from "../services/reservaService";
 import { GraficoColunas, GraficoScatter } from "../components/graficosGenericos";
 
 function PegarReservas(){
