@@ -9,24 +9,24 @@ export function NavegacaoFuncionario() {
       
       <nav className="sidebar-nav">
         <NavLink 
-          to="/funcionarios/indicadores" 
+          to="/funcionario/indicadores" 
           className={({ isActive }) => `nav-item ${isActive ? 'active' : ''}`}
         >
           <i className="ti ti-chart-bar"></i> Indicadores Gerais
         </NavLink>
         
         <NavLink 
-          to="/funcionarios/busca" 
+          to="/funcionario/busca" 
           className={({ isActive }) => `nav-item ${isActive ? 'active' : ''}`}
         >
           <i className="ti ti-search"></i> Busca Específica
         </NavLink>
         
         <NavLink 
-          to="/funcionarios/inserir" 
+          to="/funcionario/inserir" 
           className={({ isActive }) => `nav-item ${isActive ? 'active' : ''}`}
         >
-          <i className="ti ti-database-plus"></i> Inserir Funcionário
+          <i className="ti ti-database-plus"></i> Inserir Dados
         </NavLink>
       </nav>
 

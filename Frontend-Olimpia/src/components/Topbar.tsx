@@ -21,7 +21,7 @@ export function Topbar({ userName }: TopbarProps) {
   return (
     <div className="topbar">
       <div className="topbar-title">
-        <span style={{ fontWeight: 500 }}>Bem Vindo</span> - {userName}
+        <span style={{ fontWeight: 500 }}>Bem Vindo</span>
       </div>
       <div className="topbar-right">
         <span className="topbar-date">{currentDate}</span>
