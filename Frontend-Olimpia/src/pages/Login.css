@@ -221,3 +221,13 @@ input.valid   { border-color: var(--success); }
     .modal { flex-direction: column; }
     .pane-login { border-right: none; border-bottom: 1px solid var(--divider); }
 }
+
+.team-credits {
+    position: absolute;
+    bottom: 10px;
+    right: 15px;
+    font-size: 15px;
+    color: var(--subtle);
+    text-align: right;
+    pointer-events: none;
+}

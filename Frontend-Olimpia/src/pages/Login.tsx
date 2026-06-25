@@ -159,6 +159,14 @@ export function Login() {
           </div>
         </div>
       </div>
+      <div className="team-credits">
+            Equipe 5: <br></br>
+            Cauê Sordi Paulino 14564520<br></br>
+            Gustavo Curado Ribeiro 14576732<br></br>
+            Luana Fialho Franco de Melo USP: 14755061<br></br>
+            Luís Filipe Silva Forti 14592348<br></br>
+            William Noboru Yoshihara 14612461
+      </div>
     </div>
   );
 }
